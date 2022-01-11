@@ -4,6 +4,7 @@
     --bg-color: hsl(0, 0%, 90%);
     --transition: 0.1s, background-solor 0.2s ease-in-out;
     --border-radius: .4em;
+    --skills-bar-length: 0%;
 }
 
 a {
@@ -47,6 +48,7 @@ body.dark {
 .main {
     display: grid;
     padding: 2em;
+    gap: 0.5em;
 }
 
 @media screen and (min-width:720px) {
@@ -59,6 +61,13 @@ body.dark {
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
+}
+
+@media screen and (min-width:720px) {
+    .column--right {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
+    }
 }
 
 .card__image-container {
@@ -85,7 +94,7 @@ body.dark {
     margin-bottom: 0.5em;
 }
 
-card__text {
+.card__text {
     font-size: 0.9rem;
     line-height: 1.6;
 }
@@ -93,6 +102,12 @@ card__text {
 .icon {
     margin-right: 1em;
 }
+
+.column {
+    display: grid;
+    gap: 0.5em
+}
+
 
 .switches {
     display: flex;
@@ -116,6 +131,94 @@ card__text {
 .toggle-theme__text {
     font-size: 0.8rem;
 }
+
+.skills {
+    padding: 1em 0;
+}
+
+.skills__header {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+
+.skills__tech {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.skills__bar,
+.skills__bar::after {
+    position: relative;
+    width: 175px;
+    height: 8px;
+    background-color: #888;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.skills__bar::after {
+    content: "";
+    position: absolute;
+    left: -175px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+    animation: skill-bar-fill 2s ease-in-out forwards;
+}
+
+.skills__bar--10::after {
+    --skill-bar-length: 10%;
+}
+
+.skills__bar--20::after {
+    --skill-bar-length: 20%;
+}
+
+.skills__bar--30::after {
+    --skill-bar-length: 30%;
+}
+
+.skills__bar--40::after {
+    --skill-bar-length: 40%;
+}
+
+.skills__bar--50::after {
+    --skill-bar-length: 50%;
+}
+
+.skills__bar--60::after {
+    --skill-bar-length: 60%;
+}
+
+.skills__bar--70::after {
+    --skill-bar-length: 70%;
+}
+
+.skills__bar--80::after {
+    --skill-bar-length: 80%;
+}
+
+.skills__bar--90::after {
+    --skill-bar-length: 90%;
+}
+
+
+
+
+@keyframes skill-bar-fill {
+    to {
+      transform: translateX(var(--skill-bar-length));
+    }
+  }
+
 
 .colors {
     display: flex;
