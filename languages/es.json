@@ -1,21 +1,25 @@
 {
     "profile": {
 "rol": "Desarrollador Full Stack Javascript",
-"description": ""
+"description": "Luego de 15 años de docencia universitaria, y de asumir varios roles de dirección y coordinación ahora reconvertido a desarrollador Full Stack Javascript, con mucha motivación por aprender cada día. <br>Soy un apasionado de las nuevas tecnologías, me encantan los retos porque me permiten crecer, aprender de los aciertos y mejorar los errores."
     },
     "experience":{
-        "first-job-title": "",
-        "first-job-dates":"",
-        "first-job-description": "",
-        "second-job-title": "",
-        "second-job-dates":"",
-        "second-job-description": "",
-        "third-job-title": "",
-        "third-job-dates":"",
-        "third-job-description": "",
-        "fourth-job-title": "",
-        "fourth-job-dates":"",
-        "fourth-job-description": ""
+        "first-job-company": "Librería Qué Leo Arica",
+        "first-job-title": "Vendedor",
+        "first-job-dates":"Agos 2017 - Sept 2021",
+        "first-job-description": "<p>Implementé ecommerce en WordPress/Woocommerce</p><p>Mantenimiento y administración de ecommerce</p><p>Manejo de caja, reposición e inventario.</p><p>Ventas al detal</p>",
+        "second-job-company": "Zona Educativa Carabobo",
+        "second-job-title": "Sistema de Gestión Escolar",
+        "second-job-dates":"Sept 2015 - Jul 2017",
+        "second-job-description": "<p>Supervisé planteles Escolares del municipio San Diego (64 planteles) para comprobar el ingreso de todos los estudiantes al sistema.</p><p>Orientación en la resolución de problemas de registro.</p> <p>Elaboración de Informes Estadísticos.</p>",
+        "third-job-company": "Universidad de Carabobo",
+        "third-job-title": "Docente",
+        "third-job-dates":"Jul 2003 - Jul 2017",
+        "third-job-description": "<p>Docencia a los futuros profesionales de educación en Ciencias Sociales.</p><p>Coordinador de Tecnologias de Información y Comunicación del Departamento de Ciencias Sociales.</p><p>Docente de Computación Básica</p>",
+        "fourth-job-company": "Liceo Ernesto Che Guevara",
+        "fourth-job-title": "Sub Director",
+        "fourth-job-dates":"Marzo 2008 - Jul 2015",
+        "fourth-job-description": "<p>Encargado de los coordinadores de control de estudio y coordinadores.</p><p>Supervisé a docentes de aula (45 docentes).</p><p>Cumplimiento de metas educativas.</p><p>Informes de Objetivos.</p>"
     },
     "project": {
         "first-project-title": "",
