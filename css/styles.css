@@ -411,3 +411,36 @@ font-style: italic;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
+.footer {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+  }
+  
+  @media screen and (min-width: 760px) {
+    .footer {
+      /* flex-direction: row; */
+      height: 175px;
+    }
+  }
+  
+  .footer__copy {
+    margin-top: 0;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
