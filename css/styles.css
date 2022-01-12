@@ -27,12 +27,14 @@ body {
     color: var(--text-color);
     transition: var(--transition);
     font-family: sans-serif;
+    
 }
 
 body.dark {
     --text-color: hsl(0, 0%, 83%);
     --bg-color: hsl(0, 0%, 15%);
     --bg-card-color: hsl(0, 0%, 20%);
+    
 }
 
 .header {
@@ -44,6 +46,10 @@ body.dark {
     background-color: var(--bg-card-color);
     transition: var(--transition);
 }
+
+/* .column--left {
+    border: 1px solid black;
+} */
 
 .main {
     display: grid;
@@ -105,7 +111,8 @@ body.dark {
 
 .column {
     display: grid;
-    gap: 0.5em
+    gap: 0.5em;
+    
 }
 
 
@@ -121,6 +128,7 @@ body.dark {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 }
 
 .toggle-theme__icon {
