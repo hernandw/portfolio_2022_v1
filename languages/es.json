@@ -1,0 +1,25 @@
+{
+    "profile": {
+"rol": "Desarrollador Full Stack Javascript",
+"description": ""
+    },
+    "experience":{
+        "first-job-title": "",
+        "first-job-dates":"",
+        "first-job-description": "",
+        "second-job-title": "",
+        "second-job-dates":"",
+        "second-job-description": "",
+        "third-job-title": "",
+        "third-job-dates":"",
+        "third-job-description": "",
+        "fourth-job-title": "",
+        "fourth-job-dates":"",
+        "fourth-job-description": ""
+    },
+    "project": {
+        "first-project-title": "",
+        "first-project-description": "",
+        "button-code": ""
+    }
+}
