@@ -360,7 +360,7 @@ font-style: italic;
 .project__tags {
     display: flex;
     justify-content:space-around;
-    margin: 0.5em 0;
+    margin: 0.5em 125px;
     font-size: 0.6rem;
     width: 275px;
 }
@@ -375,6 +375,7 @@ font-style: italic;
 .project__tag {
     
     padding: 0.8em 0.8em;
+    margin-left: 5px;
     border-radius: var(--border-radius);
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -395,12 +396,12 @@ font-style: italic;
     color: var(--bg-color);
 }
 
-@media screen and (min-width: 760px) {
+/* @media screen and (min-width: 607px) {
     .buttons {
         position: absolute;
         bottom: 1em;
     }
-}
+} */
 
 .button--primary {
     background-color: var(--primary-color);
